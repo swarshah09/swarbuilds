@@ -1,0 +1,189 @@
+{
+  "project_context": {
+    "name": "Swar Shah",
+    "role": "Software Engineer | AI & Full Stack Consultant",
+    "position": "Junior Associate Software Developer at Synechron",
+    "goal": "Convert visitors into paying clients for high-ticket software projects (₹50k - ₹10L).",
+    "vibe": "Premium, trusted, luxury software agency. Apple + Linear + Stripe + Vercel aesthetic.",
+    "theme": "Dark Mode Default (Locked)",
+    "archetype": "Hybrid of 4 (Swiss/High-Contrast) and 5 (Luxury) with Electric Accents"
+  },
+  "design_system": {
+    "colors": {
+      "locked": {
+        "primary": "#2563EB",
+        "secondary": "#7C3AED",
+        "accent": "#06B6D4"
+      },
+      "backgrounds": {
+        "page": "#050505",
+        "surface": "#0A0A0A",
+        "surface_elevated": "#121212",
+        "surface_glass": "rgba(10, 10, 10, 0.6)"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#A1A1AA",
+        "muted": "#52525B"
+      },
+      "borders": {
+        "default": "rgba(255, 255, 255, 0.08)",
+        "focus": "rgba(255, 255, 255, 0.2)"
+      },
+      "gradients": {
+        "hero_glow": "radial-gradient(circle at 50% -20%, rgba(37,99,235,0.15) 0%, rgba(124,58,237,0.05) 50%, rgba(0,0,0,0) 100%)",
+        "card_hover": "radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(255,255,255,0.06), transparent 40%)",
+        "text_highlight": "linear-gradient(90deg, #2563EB, #7C3AED, #06B6D4)"
+      }
+    },
+    "typography": {
+      "fonts": {
+        "heading": "\"Space Grotesk\", sans-serif",
+        "body": "\"Inter\", sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-6xl tracking-tighter leading-tight font-bold",
+        "h2": "text-3xl md:text-4xl tracking-tight leading-snug font-semibold",
+        "h3": "text-xl md:text-2xl tracking-tight leading-snug font-medium",
+        "body_large": "text-lg text-zinc-400 leading-relaxed font-light",
+        "body_base": "text-base text-zinc-400 leading-relaxed",
+        "label": "text-xs uppercase tracking-[0.2em] text-zinc-500 font-semibold"
+      }
+    },
+    "spacing": {
+      "section_padding": "py-24 md:py-32",
+      "container": "max-w-7xl mx-auto px-6 md:px-12",
+      "gap_bento": "gap-6 md:gap-8"
+    },
+    "surfaces_and_borders": {
+      "card": "bg-[#0A0A0A] border border-white/5 rounded-2xl overflow-hidden",
+      "glass": "backdrop-blur-xl bg-black/60 border border-white/10",
+      "radius": {
+        "button": "rounded-full",
+        "card": "rounded-2xl",
+        "pill": "rounded-full"
+      }
+    }
+  },
+  "layout_blueprints": {
+    "global": {
+      "header": "Fixed top, z-50, backdrop-blur-xl bg-black/60 border-b border-white/5. Logo left, Nav center (hidden on mobile), CTA right. Use Framer Motion for scroll-hide logic.",
+      "footer": "Generous py-32 bg-black. Massive 'Let's Build' heading. Grid layout for links. Social icons in circles. Dark minimalist aesthetic.",
+      "sticky_cta": "Fixed bottom-8 right-8 z-50. Magnetic button effect. Pulsing glow."
+    },
+    "landing_page": {
+      "1_hero": {
+        "style": "Vercel / Linear aesthetic. Center aligned. Massive Space Grotesk H1. Subtitle in Inter. Two buttons (Primary Blue, Secondary outline).",
+        "background": "Geist-style CSS grid lines (10% opacity, 24px spacing) + top-center radial gradient glow.",
+        "animation": "Framer Motion staggered fade-up. Floating tech icons in the background (React, Node, AWS)."
+      },
+      "2_trust_section": {
+        "style": "Subtle, desaturated grayscale logos turning color on hover. Text: 'Trusted by enterprise teams and fast-growing startups'.",
+        "layout": "Marquee or flex-wrap center."
+      },
+      "3_industries": {
+        "layout": "Grid-cols-2 md:grid-cols-3 gap-4. Minimal pill-shaped cards with small Lucide icons."
+      },
+      "4_services": {
+        "layout": "Bento Grid Mode A (Tetris). 1 large card (Custom Web Apps), 2 medium (AI, Dashboards), 2 small. Hover: Linear-style mouse-tracking gradient."
+      },
+      "5_why_me": {
+        "layout": "List-based or alternating zigzag layout. Focus on business value (revenue, speed) over code.",
+        "typography": "High contrast data points (e.g., '10x Faster')."
+      },
+      "6_featured_projects": {
+        "layout": "Sticky vertical scroll. Left side: Sticky text details. Right side: Scrolling project images.",
+        "cards": "Image takes 70% of card, details 30%. Deep dive link styled as an arrow."
+      },
+      "7_process": {
+        "layout": "Vertical timeline with glowing line (Tracing Beam effect). Animated progress based on scroll."
+      },
+      "8_testimonials": {
+        "layout": "Masonry grid or horizontal CSS scroll. Cards with quotes, user avatar, and company."
+      },
+      "9_faq": {
+        "component": "Shadcn Accordion. 1px bottom border per item. Clean, no background box."
+      },
+      "10_about": {
+        "layout": "2-column. Left: Professional portrait with subtle gradient border. Right: Bio focusing on 'business-first software'."
+      },
+      "11_tech_stack": {
+        "layout": "Infinite Marquee (react-fast-marquee) of tech icons. Monochromatic until hovered."
+      },
+      "12_blog": {
+        "layout": "3-column grid. Clean, editorial feel. Date and reading time overlines."
+      },
+      "13_contact": {
+        "layout": "2-column. Left: Calendly embed or direct contact info. Right: Shadcn Form (Name, Email, Project Details, Budget Dropdown)."
+      }
+    },
+    "pages": {
+      "case_study": {
+        "hero": "Full width image with 50% bottom-to-top black gradient overlay. Title and metrics over image.",
+        "content": "Centered max-w-3xl for reading. Sections for Problem, Solution, Tech, Results."
+      },
+      "blog_listing": {
+        "layout": "Header with 'Thoughts & Engineering'. Grid of articles. Tags for filtering."
+      },
+      "blog_detail": {
+        "layout": "Narrow reading column (max-w-2xl). Large typography. Prose styling (Tailwind Typography plugin adapted for dark mode)."
+      },
+      "admin_cms": {
+        "layout": "Control Room Grid (Mode B). Dense. Sidebar navigation. Table views for posts. Shadcn inputs and markdown editor."
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#2563EB] hover:bg-blue-500 text-white rounded-full px-6 py-3 font-medium transition-all duration-300",
+      "secondary": "bg-transparent border border-white/20 hover:border-white/50 text-white rounded-full px-6 py-3 backdrop-blur-sm",
+      "magnetic": "Use framer-motion to track mouse offset and slightly translate button container."
+    },
+    "inputs": {
+      "base": "bg-black/50 border border-white/10 rounded-xl focus:border-[#2563EB] focus:ring-1 focus:ring-[#2563EB] text-white",
+      "labels": "text-sm text-zinc-400 mb-2 block"
+    }
+  },
+  "interactions_and_motion": {
+    "scroll": "Use Lenis for smooth scrolling.",
+    "page_transition": "Framer motion AnimatePresence. Fade in and slide up (y: 20 -> 0).",
+    "cursor": "Custom div following mouse pointer. Mix-blend-mode: difference. Expands on hovering links.",
+    "hover_effects": "Cards use a mouse-tracking radial gradient mask to reveal a brighter border/background on hover.",
+    "data_testid": "MANDATORY. Add 'data-testid' to all buttons, links, and forms (e.g., data-testid='hero-cta-button')."
+  },
+  "assets": {
+    "guidelines": "Use next/image or native img. Maintain aspect ratios. Ensure alt tags.",
+    "images": [
+      {
+        "category": "Hero Background / Abstract Glow",
+        "url": "https://images.unsplash.com/photo-1557682250-33bd709cbe85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGRhcmslMjBibHVlJTIwcHVycGxlJTIwZ3JhZGllbnR8ZW58MHx8fHwxNzgzMTU2NTgzfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Blue to purple gradient - use as absolute positioned background with heavy blur (blur-[120px]) and low opacity (20%) for Vercel-style glow."
+      },
+      {
+        "category": "About Section / Portrait",
+        "url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjB0ZWNoJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzgzMTU2NTgzfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Professional man in tech - placeholder for Swar Shah."
+      },
+      {
+        "category": "Case Study 1: Real Estate (Shreeji)",
+        "url": "https://images.unsplash.com/photo-1706808849780-7a04fbac83ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNzl8MHwxfHNlYXJjaHwzfHxyZWFsJTIwZXN0YXRlJTIwYXJjaGl0ZWN0dXJlJTIwbW9kZXJufGVufDB8fHx8MTc4MzE1NjU4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern architecture for real estate project placeholder."
+      },
+      {
+        "category": "Case Study 2: Fitness (Fitness Freak)",
+        "url": "https://images.unsplash.com/photo-1637430308606-86576d8fef3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxmaXRuZXNzJTIwZ3ltJTIwZGFyayUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3ODMxNTY1ODN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Dark aesthetic gym for fitness app placeholder."
+      },
+      {
+        "category": "Case Study 3: Startups / FamPulse",
+        "url": "https://images.unsplash.com/photo-1720139290909-5f05410b20c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwbW9kZXJuJTIwb2ZmaWNlJTIwZGFya3xlbnwwfHx8fDE3ODMxNTY1ODN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Modern dark office desk for SaaS/Startup project placeholder."
+      }
+    ]
+  },
+  "implementation_instructions": {
+    "icons": "Use 'lucide-react' for UI icons. Use 'react-icons/si' for brand/tech logos (React, Node, AWS, etc.).",
+    "tailwind_config": "Extend colors with the provided hex codes. Add animations for marquee, fade-in, and gradient-shift.",
+    "quality_assurance": "Ensure all text contrast meets WCAG AA on dark backgrounds. Add data-testid to everything interactive."
+  }
+}
