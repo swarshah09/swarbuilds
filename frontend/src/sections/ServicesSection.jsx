@@ -49,9 +49,9 @@ function ServiceCard({ service, className = "" }) {
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-24 md:py-32 relative" data-testid="services-section">
+    <section id="services" className="py-16 sm:py-24 md:py-32 relative" data-testid="services-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="max-w-3xl mb-16">
+        <div className="max-w-3xl mb-12 sm:mb-16">
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Services</p>
           <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
             Software that moves your business — end to end.

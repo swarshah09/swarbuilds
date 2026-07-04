@@ -20,7 +20,7 @@ const FloatingIcon = ({ Icon, className, delay = 0 }) => (
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden" data-testid="hero-section">
+    <section className="relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden" data-testid="hero-section">
       <div className="absolute inset-0 hero-glow pointer-events-none" />
       <div className="absolute inset-0 grid-bg pointer-events-none" />
 
@@ -51,7 +51,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-white leading-[1.05] max-w-5xl mx-auto"
+          className="font-display text-[2.25rem] sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-white leading-[1.05] max-w-5xl mx-auto"
         >
           Helping businesses build{" "}
           <span className="text-brand-gradient">software</span>{" "}

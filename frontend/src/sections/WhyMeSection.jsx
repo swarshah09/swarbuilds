@@ -6,7 +6,7 @@ const ICONS = { MessageSquare, Target, Code2, Sparkles, LifeBuoy, PenTool };
 
 export default function WhyMeSection() {
   return (
-    <section className="py-24 md:py-32 relative border-t border-white/5" data-testid="why-me-section">
+    <section className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="why-me-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">

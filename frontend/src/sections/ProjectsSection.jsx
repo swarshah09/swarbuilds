@@ -5,7 +5,7 @@ import { PROJECTS } from "@/data/content";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-24 md:py-32 relative border-t border-white/5" data-testid="projects-section">
+    <section id="projects" className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="projects-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-end justify-between mb-16 flex-wrap gap-6">
           <div className="max-w-2xl">
@@ -42,7 +42,7 @@ export default function ProjectsSection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0 pointer-events-none" />
               </Link>
 
-              <div className={`md:col-span-5 p-8 md:p-10 flex flex-col justify-center ${i % 2 === 1 ? "md:order-1" : ""}`}>
+              <div className={`md:col-span-5 p-6 sm:p-8 md:p-10 flex flex-col justify-center ${i % 2 === 1 ? "md:order-1" : ""}`}>
                 <span className="text-xs uppercase tracking-[0.2em] text-[#06B6D4] mb-3">{p.industry}</span>
                 <h3 className="font-display text-2xl md:text-3xl font-semibold text-white tracking-tight mb-3">{p.name}</h3>
                 <p className="text-zinc-400 text-base leading-relaxed mb-6">{p.tagline}</p>

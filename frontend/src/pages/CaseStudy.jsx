@@ -33,7 +33,7 @@ export default function CaseStudy() {
             <Link to="/#projects" className="inline-flex items-center gap-2 text-sm text-zinc-300 hover:text-white mb-6" data-testid="case-back">
               <ArrowLeft size={14} /> All projects
             </Link>
-            <span className="text-xs uppercase tracking-[0.2em] text-[#06B6D4]">{project.industry}</span>
+            <span className="block text-xs uppercase tracking-[0.2em] text-[#06B6D4]">{project.industry}</span>
             <h1 className="font-display text-4xl md:text-6xl font-bold text-white tracking-tighter mt-3 leading-tight">{project.name}</h1>
             <p className="text-zinc-300 text-lg mt-4 max-w-2xl">{project.tagline}</p>
           </div>

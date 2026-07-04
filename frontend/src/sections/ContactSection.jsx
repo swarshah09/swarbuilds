@@ -33,7 +33,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-24 md:py-32 relative border-t border-white/5" data-testid="contact-section">
+    <section id="contact" className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="contact-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-5">
@@ -80,7 +80,7 @@ export default function ContactSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="lg:col-span-7 rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-xl p-8 md:p-10"
+            className="lg:col-span-7 rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-xl p-6 sm:p-8 md:p-10"
             data-testid="contact-form"
           >
             <div className="grid sm:grid-cols-2 gap-4">

@@ -15,7 +15,7 @@ const ICON_MAP = {
 
 export default function TechStackSection() {
   return (
-    <section className="py-24 md:py-32 relative border-t border-white/5 overflow-hidden" data-testid="tech-stack-section">
+    <section className="py-16 sm:py-24 md:py-32 relative border-t border-white/5 overflow-hidden" data-testid="tech-stack-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12 mb-12">
         <div className="max-w-2xl">
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Tech stack</p>

@@ -19,7 +19,7 @@ export default function BlogPreviewSection() {
   }, []);
 
   return (
-    <section id="blog" className="py-24 md:py-32 relative border-t border-white/5" data-testid="blog-preview-section">
+    <section id="blog" className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="blog-preview-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-end justify-between mb-14 flex-wrap gap-6">
           <div>

@@ -8,7 +8,7 @@ export const SITE = {
   linkedin: "https://www.linkedin.com/in/swar-shah-190a84218/",
   github: "https://github.com/swarshah09",
   location: "Pune, India",
-  calendly: "https://calendly.com/swarbuilds/consultation",
+  calendly: "https://calendly.com/swarbuilds",
 };
 
 export const TRUST_BADGES = [

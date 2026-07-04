@@ -3,7 +3,7 @@ import { SITE, VALUES } from "@/data/content";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-24 md:py-32 relative border-t border-white/5" data-testid="about-section">
+    <section id="about" className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="about-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid lg:grid-cols-12 gap-14 items-start">
           <motion.div

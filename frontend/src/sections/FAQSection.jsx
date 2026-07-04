@@ -4,7 +4,7 @@ import { FAQS } from "@/data/content";
 
 export default function FAQSection() {
   return (
-    <section id="faq" className="py-24 md:py-32 relative border-t border-white/5" data-testid="faq-section">
+    <section id="faq" className="py-16 sm:py-24 md:py-32 relative border-t border-white/5" data-testid="faq-section">
       <div className="max-w-4xl mx-auto px-6 md:px-12">
         <div className="mb-14">
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Frequently asked</p>

@@ -6,7 +6,7 @@ const ICONS = { Home, HeartPulse, Dumbbell, Landmark, Rocket, UtensilsCrossed };
 
 export default function IndustriesSection() {
   return (
-    <section className="py-24 md:py-32 relative" data-testid="industries-section">
+    <section className="py-16 sm:py-24 md:py-32 relative" data-testid="industries-section">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="max-w-2xl mb-14">
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Industries served</p>

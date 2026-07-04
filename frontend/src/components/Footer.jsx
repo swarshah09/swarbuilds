@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="relative border-t border-white/5 bg-black" data-testid="site-footer">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-24">
         <div className="mb-20">
-          <h2 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-none">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-white leading-[1.05]">
             Let's build<br />
             <span className="text-brand-gradient">something great.</span>
           </h2>
@@ -21,8 +21,8 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-8 pt-16 border-t border-white/5">
-          <div className="md:col-span-2">
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 pt-16 border-t border-white/5">
+          <div className="sm:col-span-2 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#2563EB] via-[#7C3AED] to-[#06B6D4] flex items-center justify-center font-display font-bold text-white text-sm">S</div>
               <span className="font-display font-semibold text-white text-lg">{SITE.name}</span>
