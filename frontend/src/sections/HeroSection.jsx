@@ -44,7 +44,7 @@ export default function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm mb-8"
         >
           <Sparkles size={12} className="text-[#06B6D4]" />
-          <span className="text-xs text-zinc-300 tracking-wide">Currently accepting 2 new clients this quarter</span>
+          <span className="text-xs text-zinc-300 tracking-wide">Currently accepting new clients</span>
         </motion.div>
 
         <motion.h1
@@ -99,8 +99,8 @@ export default function HeroSection() {
           className="mt-20 grid grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto"
         >
           {[
-            { v: "50+", l: "Products shipped" },
-            { v: "6+", l: "Industries served" },
+            { v: "5+", l: "Products shipped" },
+            { v: "4+", l: "Industries served" },
             { v: "4.9★", l: "Client satisfaction" },
           ].map((s) => (
             <div key={s.l} className="text-center">

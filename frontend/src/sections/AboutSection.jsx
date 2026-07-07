@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { SITE, VALUES } from "@/data/content";
+import ProfileImg from "@/assets/Profile.jpg";
 
 export default function AboutSection() {
   return (
@@ -16,7 +17,7 @@ export default function AboutSection() {
               <div className="absolute -inset-0.5 rounded-3xl bg-gradient-to-br from-[#2563EB]/40 via-[#7C3AED]/30 to-[#06B6D4]/40 blur-lg opacity-60" />
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-white/10">
                 <img
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjB0ZWNoJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzgzMTU2NTgzfDA&ixlib=rb-4.1.0&q=85"
+                  src={ProfileImg}
                   alt="Swar Shah"
                   className="w-full h-full object-cover"
                   loading="lazy"

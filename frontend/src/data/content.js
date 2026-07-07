@@ -120,8 +120,8 @@ export const PROJECTS = [
       { label: "Time to close", value: "-32%" },
       { label: "Bounce rate", value: "-45%" },
     ],
-    demo: "https://example.com/shreeji",
-    github: "https://github.com/swarshah09",
+    demo: "https://shreeji-frontend.vercel.app/",
+    github: "https://github.com/swarshah09/ShreejiAssociates.git",
   },
   {
     slug: "fitness-freak",
@@ -138,8 +138,8 @@ export const PROJECTS = [
       { label: "Admin hours saved / week", value: "24h" },
       { label: "MRR growth", value: "+3.1×" },
     ],
-    demo: "https://example.com/fitness-freak",
-    github: "https://github.com/swarshah09",
+    demo: "https://fitnessfreaks-bay.vercel.app/",
+    github: "https://github.com/swarshah09/fitnessfreaks.git",
   },
   {
     slug: "fampulse",
@@ -156,8 +156,8 @@ export const PROJECTS = [
       { label: "Missed appointments", value: "-78%" },
       { label: "NPS", value: "72" },
     ],
-    demo: "https://example.com/fampulse",
-    github: "https://github.com/swarshah09",
+    demo: "https://family-health-memory.vercel.app/",
+    github: "https://github.com/swarshah09/family-health-memory.git",
   },
 ];
 

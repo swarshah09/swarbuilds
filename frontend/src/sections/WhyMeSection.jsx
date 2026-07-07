@@ -12,10 +12,10 @@ export default function WhyMeSection() {
           <div className="lg:col-span-5">
             <p className="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-3">Why work with me</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-              A senior consultant, not a freelance dev.
+              A consultant, not a freelance dev.
             </h2>
             <p className="text-zinc-400 mt-6 text-base md:text-lg leading-relaxed">
-              I take on a small number of clients each quarter so every engagement gets senior attention — from strategy to code to launch.
+              I take on a number of clients each quarter so every engagement gets attention — from strategy to code to launch.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div>
